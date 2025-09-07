@@ -20,11 +20,11 @@ Este curso não é um bootcamp exclusivo de Machine Learning, mas sim uma experi
 
 # 🛠️ Pilha Tecnológica
 
-Backend: Django, Django REST Framework, Python
+Backend: Django, Django REST Framework, Python 
 
-Frontend: React.js, HTML, CSS, JavaScript
+Frontend: React.js, HTML, CSS, JavaScript 
 
-Banco de Dados: MySQL, SQLite
+Banco de Dados: MySQL, SQLite esta private 
 
 Machine Learning: Pandas, scikit-learn, Redes Neurais, LSTM
 
