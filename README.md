@@ -6,7 +6,7 @@ O curso orienta os alunos na criação de APIs robustas usando Django REST Frame
 
 Ideal para desenvolvedores, cientistas de dados e entusiastas de tecnologia, o curso oferece uma abordagem prática e escalável para a criação de aplicações inteligentes.
 
-#🔹 Objetivo do Curso
+# 🔹 Objetivo do Curso
 
 Aprender a desenvolver aplicações web full-stack integradas com Machine Learning.
 
@@ -18,7 +18,7 @@ Integrar modelos de ML em produção com front-end moderno.
 
 Este curso não é um bootcamp exclusivo de Machine Learning, mas sim uma experiência completa de desenvolvimento web + ML.
 
-#🛠️ Pilha Tecnológica
+# 🛠️ Pilha Tecnológica
 
 Backend: Django, Django REST Framework, Python
 
@@ -36,7 +36,7 @@ Autenticação JWT para APIs REST
 
 Boas práticas contra SQL Injection e XSS
 
-#📂 Conteúdo Abordado
+# 📂 Conteúdo Abordado
 
 Desenvolvimento de APIs REST
 
@@ -56,6 +56,6 @@ Por que uma rede neural pode ser a melhor escolha para previsão de ações
 
 Integração de modelos de ML em aplicações web
 
-#🚀 Objetivo Profissional
+# 🚀 Objetivo Profissional
 
 Preparar desenvolvedores e cientistas de dados para criar aplicações web inteligentes, seguras e escaláveis, com backend robusto, frontend moderno e modelos de Machine Learning integrados em produção.
