@@ -93,3 +93,6 @@ class Employees(mixins.ListModelMixin, mixins.CreateModelMixin, generics.Generic
     
 class EmployeesDetail(generics.GenericAPIView):
     pass
+
+
+##bruno Molina 2025
