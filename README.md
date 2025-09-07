@@ -34,7 +34,6 @@ Hash de senhas com bcrypt ou PBKDF2
 
 Autenticação JWT para APIs REST
 
-Boas práticas contra SQL Injection e XSS
 
 # 📂 Conteúdo Abordado
 
