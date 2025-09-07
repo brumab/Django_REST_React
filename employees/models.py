@@ -7,3 +7,6 @@ class Employee(models.Model):
 
     def __str__(self):
         return self.emp_nome
+    
+
+    #BRUNO 3:00 2025
