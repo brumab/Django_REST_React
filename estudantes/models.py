@@ -8,3 +8,4 @@ class Estudantes(models.Model):
     def __str__(self):
         return self.nome
 
+#BRUNO 5:00 2025
