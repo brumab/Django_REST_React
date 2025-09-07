@@ -24,7 +24,7 @@ Backend: Django, Django REST Framework, Python
 
 Frontend: React.js, HTML, CSS, JavaScript 
 
-Banco de Dados: MySQL, SQLite esta private 
+Banco de Dados: MySQL, SQLite com private rsss
 
 Machine Learning: Pandas, scikit-learn, Redes Neurais, LSTM
 
