@@ -2,7 +2,7 @@
 
 Este repositório é voltado para Ciência de Dados e desenvolvimento web full-stack, focando na integração de modelos de aprendizado de máquina com a pilha web moderna.
 
-O curso orienta os alunos na criação de APIs robustas usando Django REST Framework, na implantação de modelos de Machine Learning em produção e na construção de uma interface front-end elegante com React.
+O curso orienta na criação de APIs robustas usando Django REST Framework, na implantação de modelos de Machine Learning em produção e na construção de uma interface front-end elegante com React.
 
 Ideal para desenvolvedores, cientistas de dados e entusiastas de tecnologia, o curso oferece uma abordagem prática e escalável para a criação de aplicações inteligentes.
 
