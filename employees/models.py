@@ -3,6 +3,7 @@ from django.db import models
 class Employee(models.Model):
     emp_id = models.CharField(max_length=20)
     emp_nome = models.CharField(max_length=50)
+<<<<<<< HEAD
     designacao = models.CharField(max_length=50)
 
     def __str__(self):
@@ -10,3 +11,9 @@ class Employee(models.Model):
     
 
     #BRUNO 3:00 2025
+=======
+    designation = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.emp_nome
+>>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)

@@ -11,6 +11,7 @@ urlpatterns = [
     path('estudantes/', views.estudantesView),
     path('estudantes/<int:pk>/', views.estudantesDetailView),
 
+<<<<<<< HEAD
     #path('employees/', views.Employees.as_view()),
     #path('employees/<int:pk>/', views.EmployeesDetail.as_view()),
 
@@ -28,6 +29,10 @@ urlpatterns = [
 
 
 
+=======
+    path('employees/', views.Employees.as_view()),
+    path('employees/<int:pk>/', views.EmployeesDetail.as_view()),
+>>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)
 
 
 ]
