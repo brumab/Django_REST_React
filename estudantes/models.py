@@ -8,7 +8,3 @@ class Estudantes(models.Model):
     def __str__(self):
         return self.nome
 
-<<<<<<< HEAD
-#BRUNO 5:00 2025
-=======
->>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)

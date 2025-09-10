@@ -41,14 +41,12 @@ INSTALLED_APPS = [
     'estudantes',
     'api',
     'employees',
-<<<<<<< HEAD
     'blog',
     'django_filters',
 
 
     
-=======
->>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)
+
 
 
 

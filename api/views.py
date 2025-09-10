@@ -7,7 +7,6 @@ from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from employees.models import Employee
 from django.http import Http404
-<<<<<<< HEAD
 from rest_framework import generics, mixins, generics, viewsets
 from django.shortcuts import get_object_or_404
 from blog.models import Blog, comentario
@@ -18,12 +17,11 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 
 
 
-=======
 
 
 
 
->>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)
+
 @api_view(['GET', 'POST'])
 def estudantesView(request):
     if request.method == 'GET':
@@ -65,7 +63,7 @@ def estudantesDetailView(request, pk):
         estudante.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
         
-<<<<<<< HEAD
+
 
 
 #class Employees(APIView):
@@ -85,8 +83,7 @@ def estudantesDetailView(request, pk):
          #employee = self.get_object(pk)
          #employee.delete()
          #return Response(status=status.HTTP_204_NO_CONTENT)
-=======
->>>>>>> 4e97bb7 (Resolve conflito e mescla tudo)
+
 
 
 class Employees(APIView):
