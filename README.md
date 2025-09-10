@@ -8,7 +8,7 @@ Django REST Framework (DRF) – Para criar APIs REST eficientes e estruturadas.
 
 Segurança no Django REST Framework (DRF)
 
-Autenticação
+## Autenticação
 
 Token Authentication / JWT (JSON Web Tokens) – Usuários recebem tokens seguros para acessar a API.
 
