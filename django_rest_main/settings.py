@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'estudantes',
     'api',
     'employees',
+    'blog',
+    'django_filters',
+
+
+    
 
 
 
@@ -126,4 +131,15 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField' 
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 3,
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'SEARCH_PARAM': 'qKOFi908uju98Jj988Ij898J899988j8jijIJ8JIJijjJKLMNKLNJKNJKN09i9i90i87868(((((*(*9))))))',
+    'ORDERING_PARAM': 'order-by',
+
+
+
+}

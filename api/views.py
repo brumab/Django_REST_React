@@ -9,6 +9,11 @@ from employees.models import Employee
 from django.http import Http404
 from rest_framework import generics, mixins, generics, viewsets
 from django.shortcuts import get_object_or_404
+from blog.models import Blog, comentario
+from blog.serializers import BlogSerializer, ComentarioSerializer
+from .paginations import CustomPagination
+from employees.filters import EmployeeFilter
+from rest_framework.filters import SearchFilter, OrderingFilter
 
 
 
@@ -152,9 +157,34 @@ class EmployeesDetail(generics.RetrieveUpdateDestroyAPIView):
 class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
-    
+    pagination_class = CustomPagination
+    filterset_class = EmployeeFilter
+
+
+class BlogsView(generics.ListCreateAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['Blog_title', 'Blog_body']
+    ordering_fields = ['id', 'Blog_title']
+
+
+class ComentariosView(generics.ListCreateAPIView):
+    queryset = comentario.objects.all()
+    serializer_class = ComentarioSerializer
 
 
 
+class BlogsDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer
+    lookup_field = 'pk'
 
-    
+
+
+class ComentariosDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = comentario.objects.all()
+    serializer_class = ComentarioSerializer
+    lookup_field = 'pk'
+
+

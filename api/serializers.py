@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from estudantes.models import Estudantes
 from employees.models import Employee
+from blog.models import Blog
 
 
 
@@ -13,4 +14,5 @@ class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
         fields = "__all__"
-        
+
+
